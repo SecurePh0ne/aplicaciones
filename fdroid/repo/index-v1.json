@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1571267247509,
+    "timestamp": 1571267286663,
     "version": 18,
     "name": "SecurePhone",
     "icon": "default-repo-icon.png",
@@ -15,6 +15,15 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "suggestedVersionCode": "8",
+      "license": "Unknown",
+      "name": "App Lock",
+      "added": 1571267281335,
+      "icon": "io.github.subhamtyagi.privacyapplock.8.png",
+      "packageName": "io.github.subhamtyagi.privacyapplock",
+      "lastUpdated": 1571267286652
+    },
     {
       "suggestedVersionCode": "1006050",
       "license": "Unknown",
@@ -103,6 +112,43 @@
         ],
         "versionCode": 1006050,
         "versionName": "1.6"
+      }
+    ],
+    "io.github.subhamtyagi.privacyapplock": [
+      {
+        "added": 1571267286652,
+        "apkName": "io.github.subhamtyagi.privacyapplock_8.apk",
+        "hash": "75ed605808a33668614ac157d3624cac5aae6578604f385da1a5653a970e5b08",
+        "hashType": "sha256",
+        "minSdkVersion": "15",
+        "packageName": "io.github.subhamtyagi.privacyapplock",
+        "sig": "4ceabecb8d97f0476ffa6185f99a845b",
+        "size": 2417983,
+        "targetSdkVersion": "28",
+        "uses-permission": [
+          [
+            "android.permission.GET_TASKS",
+            null
+          ],
+          [
+            "android.permission.PACKAGE_USAGE_STATS",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ]
+        ],
+        "versionCode": 8,
+        "versionName": "1.1"
       }
     ]
   }
