@@ -1,0 +1,109 @@
+{
+  "repo": {
+    "timestamp": 1571267247509,
+    "version": 18,
+    "name": "SecurePhone",
+    "icon": "default-repo-icon.png",
+    "address": "https://gitlab.com/GustavoAPereira/repo/raw/master/fdroid/repo",
+    "description": "Apps for the secure phone",
+    "mirrors": [
+      "https://gitlab.com/GustavoAPereira/repo/raw/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "suggestedVersionCode": "1006050",
+      "license": "Unknown",
+      "name": "F-Droid",
+      "added": 1571264572206,
+      "icon": "org.fdroid.fdroid.1006050.png",
+      "packageName": "org.fdroid.fdroid",
+      "lastUpdated": 1571264597656
+    }
+  ],
+  "packages": {
+    "org.fdroid.fdroid": [
+      {
+        "added": 1571264597656,
+        "apkName": "FDroid.apk",
+        "hash": "dc94be308d453241547b442af87c2b9bbadc3f4c4df68228313d9c0f544ffcc8",
+        "hashType": "sha256",
+        "minSdkVersion": "14",
+        "packageName": "org.fdroid.fdroid",
+        "sig": "9063aaadfff9cfd811a9c72fb5012f28",
+        "size": 7568874,
+        "targetSdkVersion": "25",
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.NFC",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ]
+        ],
+        "versionCode": 1006050,
+        "versionName": "1.6"
+      }
+    ]
+  }
+}
